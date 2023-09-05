@@ -12,5 +12,5 @@ routes(router)
 app.use('/', router)
 
 app.listen(urlPort, () => {
-    console.log("my app is listening on:" + urlPort);
+    console.log("listening on:" + urlPort);
 })
